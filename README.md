@@ -1,1 +1,1 @@
-# normal-intro-app
+# small-restaurant-app
