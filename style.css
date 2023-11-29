@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 10vh;
+    box-shadow: 3px 0px 10px rgba(135, 207, 235, 0.628);
+    position: sticky;
+    top: 0;
+}
+
+.insideNavbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.leftSide {
+    display: flex;
+
+
+}
+
+.potImage img {
+    height: 50px;
+    width: 50px;
+
+}
+
+div span {
+    font-size: 45px;
+}
+
+.bigImage {
+    height: 80vh;
+
+}
+
+.anotherBigImageDiv {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.bigImageFirstPortion {
+    margin-top: 5px;
+}
+
+.bigImageSecondPortion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+
+.discount {
+    font-size: 25px;
+    border: 2px solid green;
+    background-color: green;
+    width: 16rem;
+    color: white;
+}
+
+.blessing,
+.secondBlessing {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.paragraph {
+    font-size: 23px;
+}
+
+.explore {
+    font-size: 25px;
+    border: 2px solid rgba(0, 128, 0, 0.292);
+    background-color: rgba(0, 128, 0, 0.292);
+    width: 10rem;
+    color: white;
+}
+
+.explore:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.secondPage {
+    height: 700px;
+}
+
+.secPageContent {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid green;
+}
+
+.disVoucher,
+.healthyFood,
+.homeDevlievery {
+    display: flex;
+    width: 32%;
+    border-bottom: 1px solid rgba(135, 207, 235, 0.185);
+    border-right: 1px solid rgba(135, 207, 235, 0.183);
+}
+
+.disVoucher:hover,
+.healthyFood:hover,
+.homeDevlievery:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(135, 207, 235, 0.502);
+}
+
+.sameCss img {
+    height: 70px;
+    width: 70px;
+}
+.secondPageNextCont{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.Menu{
+    background-color: rgba(0, 128, 0, 0.612);
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+}
+.ExploreDiv{
+    font-size: 25px;
+    font-weight: bold;
+}
